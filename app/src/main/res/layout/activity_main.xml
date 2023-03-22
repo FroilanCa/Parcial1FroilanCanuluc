@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+
+        android:id="@+id/Dame11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="222dp"
+        android:hint="Dame numero 1" />
+
+    <EditText
+        android:id="@+id/Dame22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="222dp"
+        android:layout_marginBottom="464dp"
+        android:hint="Dame numero 2" />
+
+    <TextView
+        android:id="@+id/resu1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="278dp"
+        android:layout_marginEnd="257dp"
+        android:layout_marginBottom="407dp"
+        android:text="RESULTADO: " />
+
+    <Button
+        android:id="@+id/sum1"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="298dp"
+        android:layout_marginBottom="390dp"
+        android:hint="SUMAR" />
+
+    <Button
+        android:id="@+id/res2"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="299dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="391dp"
+        android:hint="RESTAR" />
+
+    <Button
+        android:id="@+id/mul3"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="386dp"
+        android:layout_marginEnd="231dp"
+        android:layout_marginBottom="308dp"
+        android:hint="MULTIPLICAR" />
+
+    <Button
+        android:id="@+id/div4"
+        android:layout_width="188dp"
+        android:layout_height="53dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="382dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="308dp"
+        android:hint="DIVIDIR" />
+</RelativeLayout>
